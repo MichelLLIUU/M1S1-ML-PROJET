@@ -1,15 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[106]:
-
-
-
-
-
-# In[67]:
-
-
 import pandas as pd
 import numpy as np
 
