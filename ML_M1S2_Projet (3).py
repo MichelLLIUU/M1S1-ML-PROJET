@@ -242,6 +242,12 @@ print("降维后还剩:", x_pca.shape[1])
 # In[105]:
 #由于PCA后，只减少了一个特征，所以还是选择十个保证不丢失信息
 
+#现在进行划分训练集和测试集，我们选择交叉验证 10-Fold
+
+from sklearn.model_selection import cross_val_score, KFold
+
+kf = KFold(n_splits = 10. shuffle = True, random_state = 42)
+
 
 
 
