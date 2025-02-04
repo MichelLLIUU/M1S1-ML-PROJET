@@ -239,7 +239,8 @@ x_pca = pca.fit_transform(x)
 print("降维后还剩:", x_pca.shape[1])
 
 
-# In[ ]:
+# In[105]:
+#由于PCA后，只减少了一个特征，所以还是选择十个保证不丢失信息
 
 
 
